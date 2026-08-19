@@ -2,7 +2,7 @@
 Converts a standard I2C signal into a Differential I2C signal. This improves signal integrity over long distances while using the same hardware as I2C.
 
 ## Purpose
-  The board was made for testing the concept of differential I2C and its effectiveness when integrated into a system. The schematic can easily be copied into different project files to integrate this differential system. 
+  The board was made for testing the concept of differential I2C and its effectiveness when integrated into a system. The schematic can easily be copied into different project files to integrate this differential system. It includes test points for debugging and testing with multiple I2C ports for multiple sensor and board connections.
 
 ## DI2C Cable
 Link: https://store.3dr.com/mro-6-pin-jst-gh-to-6-pin-jst-gh-twisted-pair-mrc0212/
