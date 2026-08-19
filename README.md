@@ -1,7 +1,13 @@
 # Differential-I2C-Endpoint-Board
 Converts a standard I2C signal into a Differential I2C signal. This improves signal integrity over long distances while using the same hardware as I2C.
 
-DI2C Cable Link: https://store.3dr.com/mro-6-pin-jst-gh-to-6-pin-jst-gh-twisted-pair-mrc0212/
+## Purpose
+  The board was made for testing the concept of differential I2C and its effectiveness when integrated into a system. The schematic can easily be copied into different project files to integrate this differential system. 
+
+## DI2C Cable
+Link: https://store.3dr.com/mro-6-pin-jst-gh-to-6-pin-jst-gh-twisted-pair-mrc0212/
+
+  This is a specially designed cable that includes twisted pairs for the serial clock (SCL) lines and serial data (SDA) lines. The cable uses a 6 pin JST-GH over a standard RJ45 for the connection. This is better for compact designs in noisy environments.
 
 <img width="667" height="676" alt="Image" src="https://github.com/user-attachments/assets/c05d9006-5ac5-475e-819f-3d3596b2f3aa" />
 
